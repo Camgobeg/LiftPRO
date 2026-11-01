@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/Camgobeg/LiftPRO/issues"
+
+[[mods]]
+modId="liftpro"
+version="0.1.0"
+displayName="LiftPRO"
+authors="Camgobeg"
+description="""A mechanics-focused elevator simulation mod for Minecraft Forge 1.20.1."""
+
+[[dependencies.liftpro]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.23,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.liftpro]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
